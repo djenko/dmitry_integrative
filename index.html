@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="author" content="Dmitry Issajenko">
+  <title>Working Women Community Centre</title>
+
+  <link rel="shortcut icon" href="images/favicon.png"> 
+  <link rel="apple-itouch-icon" href="images/favicon.png">
+
+    <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/css/reset.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="styles/css/main.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="styles/print.css" type="text/css" media="print" >
+ 
+  <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
+
+  <script src="js/jquery-1.10.2.js"></script>
+
+
+
+</head>
+
+<body>
+	
+	<?php include 'php/header.php'; ?>
+
+
+	<div id="donate_volun_newslet">
+
+		<div class="dvn_title_bg">
+		</div>
+
+		<div class="dvn_description_bg">
+		</div>
+
+		<div class="dvn_section">
+			<div class="dvn_box">
+				 <h2><a href="#">Donate</a></h2>
+				<p>Donate to Working Women Community Centre to help newly immigrated Toronto women</p>
+				<div class="darkBG">
+					<ul class="donation_amount">
+						<li>$10</li>
+						<li>$25</li>
+						<li>$50</li>
+						<li><</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="dvn_box">
+				 <h2><a href="#">Volunteer</a></h2>
+				<p>Help Working Women by volunteering within are diverse set of programs and services</p>
+				<div class="darkBG">
+					<a href=""><h3>Sign Up to Volunteer Now!</h3><a>
+				</div>
+			</div>
+
+			<div class="dvn_box">
+				 <h2><a href="#">Newsletter</a></h2>
+				<p>Sign up to the WWCC newsletter to stay up to date with all of our latest news and events</p>
+				<div class="darkBG">
+					<ul class="newsletter_signup">
+						<li>Enter Your Email Address</li>
+						<li>Go!</li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="bg"></div>
+
+	<div id="main_content">
+
+		<div class="latest_news_events">
+			<div class="news_header">
+				<h1>Lastest News & Events</h1>
+			</div>
+			<section>
+				<article>
+					<ul>
+						<li>Victoria Village Craft Show</li>
+						<li>Mon Nov 11th, 2013</li>
+					</ul>
+					<img src="images/victoriavillage.jpg">
+					
+					
+					<p>Join fellow craft enthusiasts from community groups supported by WWCC as local craft stars host the first ever Victoria Village Craft Show. Our Hub’s very own Sewing Club, Knitting Club and Chinese Seniors Help Circle will be exhibiting  beautiful crafty creations this Friday, Aug, 9 at 1527 Victoria Park Ave. 1:00 – 4:00PM. <span>+</span></p>
+					<h5>By William Jones</h5>
+				</article>
+			</section>
+
+			<section>
+				<article>
+					<ul>
+						<li>WWCC Workshop Gathering</li>
+						<li>Mon Nov 11th, 2013</li>
+					</ul>
+					<img src="images/wwccworkshop.jpg">
+
+					
+					<p>Join fellow craft enthusiasts from community groups supported by WWCC as local craft stars host the first ever Victoria Village Craft Show. Our Hub’s very own Sewing Club, Knitting Club and Chinese Seniors Help Circle will be exhibiting  beautiful crafty creations this Friday, Aug, 9 at 1527 Victoria Park Ave. 1:00 – 4:00PM. <span>+</span></p>
+					<h5>By William Jones</h5>
+				</article>
+			</section>
+
+		
+		</div>
+
+		<div class="social">
+			<div class="social_header">
+				<h1>Social</h1>
+				<ul class="social_media_btns">
+				<li><a target="blank" href="https://www.facebook.com/WorkingWomenCommunityCentre"><img src="images/facebook.jpg"></a></li>
+				<li><a href="#"><img src="images/twitter.jpg"></a></li>
+				<li><a target="blank" href="http://www.youtube.com/channel/UCnArFwwXd3I1sJJAuBAQwvQ"><img src="images/youtube.jpg"></a><li>
+				<li><a href="#"><img src="images/linkedin.jpg"></a></li>
+			</ul>
+			</div>
+			
+		</div>
+
+
+		<div class="wwcc_media">
+			
+				
+			<div class="blog">
+				<h1><a href="blog.html">Blog</a></h1>
+				<h2>Read Our Blog</h2>
+				<div class="blog_info">
+					<img src="images/blogpic.png">
+					<p>At Working Women Community Centre, we pride ourselves on At Working Women Community Centre, we pride ourselves onAt Working Women Community Centre, we pride ourselves on</p>
+				</div>
+			</div>
+			
+
+			<div class="gallery">
+				<h1>Gallery</h1>
+				<h2>View Our Pics</h2>
+				<div class="gallery_info">
+					<img src="images/gallerypic.png">
+					<p>At Working Women Community Centre, we pride ourselves on At Working Women Community Centre, we pride ourselves onAt Working Women Community Centre, we pride ourselves on</p>
+				</div>
+			</div>
+
+			<div class="videos">
+				<h1>Videos</h1>
+				<div class="video">
+					<h2>Watch Our Videos</h2>
+					<div class="video_one">
+						<iframe width="350" height="197" src="//www.youtube.com/embed/l52CLlbUncU" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="bg2"></div>	
+
+	<?php include 'php/footer.php'; ?>
+
+
+
+</body>
+
+<script>
+  	$('.programs_hover').mouseenter(function(){
+	  $(this).find('.programs_dropdown').slideDown();
+	});
+
+	$('.programs_hover').mouseleave(function(){
+	  $(this).find('.programs_dropdown').slideUp();
+	});
+  </script>
+
+</html>

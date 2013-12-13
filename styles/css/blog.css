@@ -1,0 +1,754 @@
+.darkBGstyle {
+  background-color: #65444d;
+  height: 87px;
+  width: 100%;
+}
+.h1style {
+  font-size: 2.769em;
+  color: white;
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  text-transform: uppercase;
+}
+.h2style {
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  font-size: 2.25em;
+  color: white;
+}
+.h3style {
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+.h4style {
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  font-size: 1.375em;
+  color: white;
+}
+.shadow {
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.45);
+}
+.hover {
+  background-color: #5e293b;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.hover2 {
+  color: #ac0031;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.boxshadow {
+  -webkit-box-shadow: 1px 5px 6px 0px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 1px 5px 6px 0px rgba(0, 0, 0, 0.41);
+  box-shadow: 1px 5px 6px 0px rgba(0, 0, 0, 0.41);
+}
+.boxshadow2 {
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+.insetboxshadow {
+  -webkit-box-shadow: inset 0px 0px 27px -8px #383838;
+  -moz-box-shadow: inset 0px 0px 27px -8px #383838;
+  box-shadow: inset 0px 0px 27px -8px #383838;
+}
+.headerstyle {
+  background: #9c0025;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(-45deg, #9c0025 22%, #9c0025 22%, #ac0031 22%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(22%, #9c0025), color-stop(22%, #9c0025), color-stop(22%, #ac0031));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(-45deg, #9c0025 22%, #9c0025 22%, #ac0031 22%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(-45deg, #9c0025 22%, #9c0025 22%, #ac0031 22%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(-45deg, #9c0025 22%, #9c0025 22%, #ac0031 22%);
+  /* IE10+ */
+
+  background: linear-gradient(135deg, #9c0025 22%, #9c0025 22%, #ac0031 22%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9c0025', endColorstr='#ac0031', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+
+}
+@font-face {
+  font-family: 'franklin_gothic_demi_condRg';
+  src: url('franklingothicdemicond-webfont.eot');
+  src: url('franklingothicdemicond-webfont.eot?#iefix') format('embedded-opentype'), url('franklingothicdemicond-webfont.woff') format('woff'), url('franklingothicdemicond-webfont.ttf') format('truetype'), url('franklingothicdemicond-webfont.svg#franklin_gothic_demi_condRg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  width: 100%;
+  color: gray;
+  font-family: 'century gothic', sans-serif;
+  font-size: 81.3%;
+}
+nav {
+  background-color: #381823;
+  height: 43px;
+}
+nav ul.main_nav {
+  text-align: center;
+}
+nav ul.main_nav li {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  color: white;
+  font-size: 1.5em;
+}
+nav ul.main_nav a {
+  padding: 15px 20px 11px 20px;
+  text-decoration: none;
+  color: white;
+}
+nav ul.main_nav a:hover {
+  background-color: #5e293b;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+nav ul.main_nav ul.programs_dropdown {
+  position: absolute;
+  top: 43px;
+  text-align: left;
+}
+nav ul.main_nav ul.programs_dropdown a {
+  text-decoration: none;
+  padding: 0;
+}
+nav ul.main_nav ul.programs_dropdown a li {
+  display: block;
+  font-family: 'calibri', sans-serif;
+  font-size: 14px;
+  background-color: #381823;
+  padding: 7px 10px 7px 10px;
+  margin-top: 0;
+}
+nav ul.main_nav ul.programs_dropdown a li:hover {
+  background-color: #5e293b;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #531f2a;
+}
+header {
+  background-image: url(http://www.igniteyourspark.com/wp-content/uploads/2010/11/diverse_women_iStock_000010668925Medium.jpg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 400px 10%;
+  height: 341px;
+  width: 100%;
+}
+header .logo {
+  width: 1070px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.dvn_section {
+  max-width: 100%;
+  margin: 0 auto;
+  color: white;
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+}
+.dvn_section .dvn_box {
+  float: left;
+  width: 31.62393162393162%;
+  margin-right: 2.564102564102564%;
+}
+.dvn_section .dvn_box:last-child {
+  margin-right: 0;
+}
+.dvn_section .dvn_box h2 {
+  text-align: center;
+  font-size: 1.875em;
+  text-transform: uppercase;
+}
+.dvn_section .dvn_box h2 a {
+  text-decoration: none;
+  color: white;
+}
+.dvn_section .dvn_box h2 :hover {
+  color: #ac0031;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.dvn_section .dvn_title_bg {
+  background-color: #130c0e;
+  height: 50px;
+  width: 100%;
+}
+.dvn_section .dvn_title_bg h2 {
+  text-align: center;
+  margin-top: 13px;
+}
+.dvn_section .dvn_title_bg .dvn_wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+.bg {
+  width: 100%;
+  background-color: #38262b;
+  height: 159px;
+  margin-bottom: -159px;
+}
+#title_search {
+  max-width: 1170px;
+  height: 159px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#title_search .wwblog_title {
+  width: 65.81196581196581%;
+  float: left;
+  background-color: #ac0031;
+  height: 159px;
+  background: #38262b;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(-45deg, #38262b 27%, #ac0031 27%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(27%, #38262b), color-stop(27%, #ac0031));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(-45deg, #38262b 27%, #ac0031 27%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(-45deg, #38262b 27%, #ac0031 27%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(-45deg, #38262b 27%, #ac0031 27%);
+  /* IE10+ */
+
+  background: linear-gradient(135deg, #38262b 27%, #ac0031 27%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#38262b', endColorstr='#ac0031', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.45);
+}
+#title_search .wwblog_title h1 {
+  font-size: 2.769em;
+  color: white;
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  text-transform: uppercase;
+  font-size: 3.385em;
+  margin-top: 100px;
+  font-weight: bold;
+}
+#title_search .search_bar {
+  width: 34.18803418803419%;
+  float: left;
+  background-color: #38262b;
+  height: 159px;
+}
+#title_search .search_bar #searchbox {
+  margin-left: 5px;
+}
+#title_search .search_bar #searchbox #search {
+  background-color: #38262b;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: gray;
+  height: 50px;
+  font-size: 2.769em;
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  text-transform: uppercase;
+  margin-top: 100px;
+  width: 80%;
+  color: white;
+  outline: none;
+  padding: 0 0 0 10px;
+}
+#title_search .search_bar #searchbox ::-webkit-input-placeholder {
+  color: white;
+}
+#title_search .search_bar #searchbox .search_icon {
+  margin-bottom: -7px;
+}
+#title_search .search_bar h1 {
+  font-size: 2.769em;
+  color: white;
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  text-transform: uppercase;
+  font-size: 3.385em;
+  margin: 100px 0 0 22px;
+  font-weight: bold;
+}
+#main_content {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+#main_content h2.featured_header {
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  border-left-width: 20px;
+  border-left-style: solid;
+  border-left-color: #ac0031;
+  padding-left: 5px;
+}
+#main_content .featured_articles {
+  max-width: 64.81196581196581%;
+  padding-left: 1%;
+  height: 108px;
+  -webkit-box-shadow: inset 0px 0px 27px -8px #383838;
+  -moz-box-shadow: inset 0px 0px 27px -8px #383838;
+  box-shadow: inset 0px 0px 27px -8px #383838;
+  margin-bottom: 15px;
+}
+#main_content .featured_articles .featured_post {
+  margin-top: 20px;
+  float: left;
+  width: 31%;
+}
+#main_content .featured_articles .featured_post img {
+  float: left;
+  margin: 0 5px 0 5px;
+}
+#main_content .featured_articles .featured_post ul li {
+  font-family: 'calibri', sans-serif;
+}
+#main_content .featured_articles .featured_post ul li:first-child {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+#main_content .featured_articles .arrow {
+  width: 5%;
+  float: right;
+  margin-top: 33px;
+}
+#main_content .article_section {
+  width: 65.81196581196581%;
+  float: left;
+}
+#main_content .article_section h1 {
+  font-size: 2.769em;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  font-size: 3em;
+  color: black;
+  margin-bottom: 14px;
+  letter-spacing: 3px;
+}
+#main_content section article {
+  margin-bottom: 60px;
+}
+#main_content section article img {
+  width: 100%;
+}
+#main_content section article .title_author {
+  position: relative;
+  background-color: #ac0031;
+  width: 453px;
+  height: 45px;
+  margin: -70px 0 50px 0;
+  z-index: 3;
+}
+#main_content section article .title_author ul {
+  padding-left: 7px;
+  float: left;
+}
+#main_content section article .title_author ul li {
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  font-size: 2.25em;
+  color: white;
+  font-size: 3.385em;
+  display: inline-block;
+}
+#main_content section article .title_author ul.author_date {
+  float: left;
+  padding: 11px 0 0 10px;
+}
+#main_content section article .title_author ul.author_date li {
+  font-size: 0.923em;
+  display: block;
+}
+#main_content section article .main_text {
+  width: 87.01298701298701%;
+}
+#main_content section article .main_text h3 {
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 20px;
+  color: black;
+}
+#main_content section article .main_text p {
+  line-height: 180%;
+}
+#main_content section article h4 {
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  font-size: 1.375em;
+  color: white;
+  background: #ac0031;
+  width: 22.07792207792208%;
+  float: right;
+  text-align: center;
+  padding-top: 4px;
+}
+#main_content section article .separator {
+  width: 100%;
+  height: 4px;
+  background-color: #ac0031;
+  clear: both;
+}
+#main_content .social_section {
+  margin-top: 58px;
+  width: 11.111111%;
+  float: left;
+}
+#main_content .social_section ul {
+  text-align: center;
+}
+#main_content .archive_section {
+  width: 23.07692307692308%;
+  float: left;
+}
+#main_content .archive_section h2 {
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  color: white;
+  background-color: #bc3051;
+  margin-bottom: 14px;
+  padding: 4px 0 4px 6px;
+  text-align: center;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.45);
+  font-size: 2.25em;
+}
+#main_content .archive_section form {
+  margin-bottom: 10px;
+}
+#main_content .archive_section form select {
+  width: 100%;
+  height: 30px;
+  background-color: #38262b;
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  font-size: 1.375em;
+  color: white;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+#main_content .archive_section .results {
+  height: 415px;
+  background-color: #38262b;
+  margin-bottom: 10px;
+}
+#main_content .archive_section .results h2 {
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  color: white;
+  background-color: #936b72;
+  font-size: 2.25em;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.45);
+}
+#main_content .archive_section .categories {
+  height: 200px;
+  background-color: #38262b;
+}
+#main_content .archive_section .categories h2 {
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  color: white;
+  background-color: #936b72;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.45);
+  font-size: 2.25em;
+}
+.results .results_posts,
+.categories .results_posts,
+.results .categories_links,
+.categories .categories_links {
+  padding: 0 15px 0 15px;
+}
+.results .results_posts ul,
+.categories .results_posts ul,
+.results .categories_links ul,
+.categories .categories_links ul {
+  margin-bottom: 20px;
+}
+.results .results_posts ul li,
+.categories .results_posts ul li,
+.results .categories_links ul li,
+.categories .categories_links ul li {
+  display: inline-block;
+}
+.results .results_posts ul li h3,
+.categories .results_posts ul li h3,
+.results .categories_links ul li h3,
+.categories .categories_links ul li h3 {
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+footer {
+  width: 100%;
+  height: 188px;
+  background-color: #2d2222;
+  clear: both;
+  font-size: 0.875em;
+  color: white;
+}
+footer .wrapper_footer {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+footer .logo_contact_links {
+  width: 55%;
+  float: left;
+  height: 100px;
+  padding-top: 55px;
+}
+footer .logo_contact_links .logo_footer {
+  float: left;
+}
+footer .logo_contact_links .contact,
+footer .logo_contact_links .extra_links {
+  padding-top: 30px;
+  float: left;
+  margin-left: 20px;
+}
+footer .logo_contact_links .contact ul li a,
+footer .logo_contact_links .extra_links ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .donate_social {
+  width: 20%;
+  padding-top: 82px;
+  margin-left: 20px;
+  float: left;
+}
+footer .donate_social .donate_footer {
+  float: left;
+  margin-right: 40px;
+}
+footer .donate_social .donate_footer h2 {
+  font-family: 'franklin_gothic_demi_condRg', sans-serif;
+  font-size: 2.25em;
+  color: white;
+  text-transform: uppercase;
+}
+footer .donate_social .donate_footer h2 .pinkText {
+  color: #ae4646;
+}
+footer .donate_social .social_footer {
+  clear: both;
+  margin-top: -90px;
+}
+footer .donate_social .social_footer ul li {
+  display: inline-block;
+}
+footer .unitedway {
+  float: right;
+  padding-top: 83px;
+}
+/************************** MEDIA QUERIES *************************/
+@media only screen and (max-width: 1170px) and (min-width: 320px) {
+  body {
+    padding: 0 0 0 1%;
+    overflow: auto;
+  }
+}
+@media only screen and (max-width: 962px) and (min-width: 320px) {
+  
+}
+@media only screen and (max-width: 918px) and (min-width: 320px) {
+  .results .results_posts,
+  .categories .results_posts,
+  .results .categories_links,
+  .categories .categories_links {
+    padding: 0 15px 0 15px;
+  }
+  .results .results_posts ul,
+  .categories .results_posts ul,
+  .results .categories_links ul,
+  .categories .categories_links ul {
+    margin-bottom: 20px;
+  }
+  .results .results_posts ul li,
+  .categories .results_posts ul li,
+  .results .categories_links ul li,
+  .categories .categories_links ul li {
+    display: inline-block;
+  }
+  .results .results_posts ul li h3,
+  .categories .results_posts ul li h3,
+  .results .categories_links ul li h3,
+  .categories .categories_links ul li h3 {
+    font-size: 120%;
+  }
+  header {
+    background-image: url(http://www.igniteyourspark.com/wp-content/uploads/2010/11/diverse_women_iStock_000010668925Medium.jpg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 260px 10%;
+    height: 341px;
+    width: 100%;
+  }
+  header .logo {
+    width: 1070px;
+    margin: 0 auto;
+    padding-top: 80px;
+  }
+}
+@media only screen and (max-width: 690px) and (min-width: 320px) {
+  #title_search {
+    font-size: 90%;
+  }
+  #title_search .wwblog_title {
+    width: 100%;
+    height: 70px;
+  }
+  #title_search .wwblog_title h1 {
+    margin-left: 30%;
+    margin-top: 15px;
+  }
+  #title_search .search_bar {
+    width: 100%;
+  }
+  #main_content .featured_articles {
+    max-width: 100%;
+    padding-left: 1%;
+    height: 108px;
+    -webkit-box-shadow: inset 0px 0px 27px -8px #383838;
+    -moz-box-shadow: inset 0px 0px 27px -8px #383838;
+    box-shadow: inset 0px 0px 27px -8px #383838;
+    margin-bottom: 15px;
+  }
+  #main_content .featured_articles .featured_post {
+    margin-top: 20px;
+    float: left;
+    width: 31%;
+  }
+  #main_content .featured_articles .featured_post img {
+    float: left;
+    margin: 0 5px 0 5px;
+    max-width: 100%;
+  }
+  #main_content .featured_articles .featured_post ul li {
+    font-family: 'calibri', sans-serif;
+  }
+  #main_content .featured_articles .featured_post ul li:first-child {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  #main_content .featured_articles .arrow {
+    width: 5%;
+    float: right;
+    margin-top: 33px;
+  }
+  #main_content .article_section {
+    width: 100%;
+  }
+  #main_content .archive_section {
+    width: 100%;
+  }
+  #main_content .results {
+    width: 50%;
+    float: left;
+  }
+  #main_content .categories {
+    height: 415px;
+    width: 50%;
+    float: left;
+  }
+  #main_content .social_section {
+    display: none;
+  }
+  header {
+    background-image: url(http://www.igniteyourspark.com/wp-content/uploads/2010/11/diverse_women_iStock_000010668925Medium.jpg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 100px 10%;
+    height: 341px;
+    width: 100%;
+  }
+  header .logo {
+    width: 1070px;
+    margin: 0 auto;
+    padding-top: 80px;
+  }
+}
+@media only screen and (max-width: 580px) and (min-width: 320px) {
+  #title_search {
+    font-size: 90%;
+  }
+  #title_search .wwblog_title {
+    width: 100%;
+    height: 100px;
+  }
+  #title_search .wwblog_title h1 {
+    margin-left: 30%;
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 490px) and (min-width: 320px) {
+  section article {
+    margin-bottom: 60px;
+  }
+  section article img {
+    width: 100%;
+  }
+  section article .title_author {
+    position: relative;
+    background-color: #ac0031;
+    max-width: 100%;
+    height: 45px;
+    margin: -10px 0 50px 0;
+    z-index: 3;
+  }
+  section article .title_author ul {
+    padding-left: 7px;
+    float: left;
+  }
+  section article .title_author ul li {
+    font-family: 'franklin_gothic_demi_condRg', sans-serif;
+    font-size: 2.25em;
+    color: white;
+    font-size: 3.385em;
+    display: inline-block;
+  }
+  section article .title_author ul.author_date {
+    float: left;
+    padding: 11px 0 10px 10px;
+  }
+  section article .title_author ul.author_date li {
+    font-size: 0.923em;
+    display: block;
+    color: black;
+  }
+  header {
+    background-image: none;
+    height: 200px;
+    width: 100%;
+  }
+  header .logo {
+    width: 1070px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  header .logo img {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  
+}
